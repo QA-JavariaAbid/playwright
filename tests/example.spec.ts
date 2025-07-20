@@ -4,7 +4,7 @@ test('has title', async ({ page }) => {
   await page.goto('https://www.google.com/');
   await expect(page).toHaveTitle('assadadadad')
 
-  console.log('thid check')
+  console.log('a check')
 
  
 
